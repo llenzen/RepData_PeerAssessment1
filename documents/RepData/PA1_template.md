@@ -33,7 +33,7 @@ legend(x="topright",
        fill=c(2,3))
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-2-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)
 
 ## What is the average daily activity pattern?
 
@@ -62,7 +62,7 @@ legend(x="topright",
        fill=2)
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-3-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)
 
 ## Imputing missing values
 
@@ -99,7 +99,7 @@ legend(x="topright",
        fill=c(2,3))
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-4-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -126,4 +126,4 @@ xyplot(V1 ~ interval | day.type,
        layout=c(1,2))
 ```
 
-![](PA1_files/figure-html/unnamed-chunk-5-1.png)
+![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)
